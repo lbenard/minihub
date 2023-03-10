@@ -1,0 +1,31 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://d0hwyon3e5t24"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0uh01"]
+bg_color = Color(0.921569, 0.921569, 0.921569, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.666667, 0.666667, 0.666667, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7aynf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dx2fw"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3ptam"]
+
+[resource]
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Panel/styles/panel = SubResource("StyleBoxFlat_0uh01")
+TextEdit/colors/caret_color = Color(0, 0, 0, 1)
+TextEdit/colors/font_color = Color(0.109804, 0.109804, 0.109804, 1)
+TextEdit/colors/font_placeholder_color = Color(0.356863, 0.356863, 0.356863, 0.6)
+TextEdit/colors/font_readonly_color = Color(0.298039, 0.298039, 0.298039, 0.501961)
+TextEdit/styles/focus = SubResource("StyleBoxEmpty_7aynf")
+TextEdit/styles/normal = SubResource("StyleBoxEmpty_dx2fw")
+TextEdit/styles/read_only = SubResource("StyleBoxEmpty_3ptam")
